@@ -574,9 +574,10 @@
 }
 
 .u-section-3 .u-repeater-1 {
-  min-height: 2196px;
+  min-height: 2712px;
   grid-template-columns: 100%;
   grid-gap: 0px 0px;
+  grid-auto-columns: 100%;
 }
 
 .u-section-3 .u-container-layout-1 {

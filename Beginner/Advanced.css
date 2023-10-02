@@ -336,22 +336,12 @@
 
 .u-section-6 .u-btn-1 {
   font-size: 1.5rem;
-  margin: 80px 96px 0 auto;
-  padding: 20px 101px;
-}
-
-.u-section-6 .u-btn-2 {
-  font-size: 1.5rem;
-  margin: -78px auto 60px 96px;
+  margin: 80px auto 60px 96px;
   padding: 20px 101px;
 }
 
 @media (max-width: 1199px) {
   .u-section-6 .u-btn-1 {
-    margin-right: 0;
-  }
-
-  .u-section-6 .u-btn-2 {
     margin-left: 0;
   }
 }
