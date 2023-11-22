@@ -2,36 +2,45 @@
   min-height: 224px;
 }
 
-.u-section-1 .u-text-1 {
-  font-size: 3.75rem;
-  margin: 0;
-}
-
 .u-section-1 .u-btn-1 {
-  margin: -166px -144px 60px auto;
+  margin: -70px -144px 0 auto;
   padding: 12px 30px 13px;
 }
 
-@media (max-width: 1199px) {
-  .u-section-1 .u-text-1 {
-    width: auto;
-  }
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  margin: 84px 0 60px;
+}
 
+@media (max-width: 1199px) {
   .u-section-1 .u-btn-1 {
     margin-right: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-btn-1 {
+    margin-top: 140px;
+  }
+
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
-    margin-top: 256px;
+    margin-top: 66px;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-btn-1 {
+    margin-top: 64px;
+  }
+
   .u-section-1 .u-text-1 {
-    margin-top: 123px;
+    margin-top: 9px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 16px;
@@ -79,7 +88,7 @@
 }
 
 .u-section-3 .u-text-1 {
-  margin: 20px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-2 {
@@ -89,8 +98,7 @@
 
 .u-section-3 .u-line-1 {
   width: 256px;
-  height: 0;
-  margin: 11px auto 0;
+  margin: 47px auto 0;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -98,7 +106,7 @@
 }
 
 .u-section-3 .u-text-3 {
-  margin: 20px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-4 {
@@ -113,8 +121,7 @@
 
 .u-section-3 .u-line-2 {
   width: 256px;
-  height: 0;
-  margin: 11px auto 0;
+  margin: 47px auto 0;
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -122,7 +129,7 @@
 }
 
 .u-section-3 .u-text-5 {
-  margin: 20px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-6 {
@@ -132,8 +139,7 @@
 
 .u-section-3 .u-line-3 {
   width: 256px;
-  height: 0;
-  margin: 11px auto 0;
+  margin: 47px auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -144,6 +150,18 @@
   .u-section-3 .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
     min-height: 257px;
+  }
+
+  .u-section-3 .u-line-1 {
+    height: 0;
+  }
+
+  .u-section-3 .u-line-2 {
+    height: 0;
+  }
+
+  .u-section-3 .u-line-3 {
+    height: 0;
   }
 }
 
